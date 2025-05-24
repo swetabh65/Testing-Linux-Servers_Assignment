@@ -1,0 +1,20 @@
+System Monitoring Setup Guide
+
+Tools Used for the Task:
+- htop: Real-time process and resource viewer
+- df: Shows filesystem disk space usage
+- du: Estimates file and directory space usage
+- ps: Reports resource-heavy processes
+
+Logs Location:
+- /var/log/dev-monitoring/
+
+Automation:
+- Cron job runs every 10 minutes
+- Script logs CPU, memory, and disk usage
+
+To check real-time status:
+- Run: htop
+- Run: df -h
+- Run: ps -eo pid,ppid,cmd,%cpu --sort=-%cpu | head
+
