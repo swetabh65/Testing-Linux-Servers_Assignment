@@ -51,7 +51,7 @@ Top 10 Memory Consumers
 ![image](https://github.com/user-attachments/assets/0d0b08d0-1f17-482a-9d0f-ffed2cdebba4)
 
 
-📁 Step 4: Identify Resource-Intensive Processes
+📁 Step 4: Create Resource-Intensive Processes
 
 Create a Shell Script for monitoring
 sudo nano /usr/local/bin/system_monitoring.sh
